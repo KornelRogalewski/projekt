@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Główna</title>
+</head>
+<header>
+    <img src="logo-generic.svg" height="auto" width="250px">
+    <button id="themeToggle">Tryb Ciemny</button>
+</header>
+<body>
+    <div class="nav">
+        <a href="index.html">Główna</a>
+        <a href="contact.html">Kontakt</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="rozwiniecie.html">Akordeon</a>
+        <a href="galeria.html">Galeria</a>
+    </div>
+    <div class="quiz">
+    <form id="quizForm">
+    <p>1. Jaki znacznik HTML jest używany do tworzenia linków?</p>
+        <input type="radio" id="q1A" name="q1" value="A">
+        <label for="q1A">&lt;a&gt;</label>
+        
+        <input type="radio" id="q1B" name="q1" value="B">
+        <label for="q1B">&lt;link&gt;</label>
+        
+        <input type="radio" id="q1C" name="q1" value="C">
+        <label for="q1C">&lt;href&gt;</label>
+        
+        <input type="radio" id="q1D" name="q1" value="D">
+        <label for="q1D">&lt;nav&gt;</label>
+
+        <p>2. Który element HTML służy do tworzenia listy numerowanej?</p>
+        <input type="radio" id="q2A" name="q2" value="A">
+        <label for="q2A">&lt;ul&gt;</label>
+        
+        <input type="radio" id="q2B" name="q2" value="B">
+        <label for="q2B">&lt;ol&gt;</label>
+        
+        <input type="radio" id="q2C" name="q2" value="C">
+        <label for="q2C">&lt;li&gt;</label>
+        
+        <input type="radio" id="q2D" name="q2" value="D">
+        <label for="q2D">&lt;list&gt;</label>
+
+        <p>3. Co oznacza skrót CSS?</p>
+        <input type="radio" id="q3A" name="q3" value="A">
+        <label for="q3A">Cascading Style Sheets</label>
+        
+        <input type="radio" id="q3B" name="q3" value="B">
+        <label for="q3B">Creative Style System</label>
+        
+        <input type="radio" id="q3C" name="q3" value="C">
+        <label for="q3C">Computer Style Syntax</label>
+        
+        <input type="radio" id="q3D" name="q3" value="D">
+        <label for="q3D">Central Styling Structure</label>
+
+        <p>4. Jak określamy kolor tekstu w CSS?</p>
+        <input type="radio" id="q4A" name="q4" value="A">
+        <label for="q4A">text-color</label>
+        
+        <input type="radio" id="q4B" name="q4" value="B">
+        <label for="q4B">color</label>
+        
+        <input type="radio" id="q4C" name="q4" value="C">
+        <label for="q4C">font-color</label>
+        
+        <input type="radio" id="q4D" name="q4" value="D">
+        <label for="q4D">style-color</label>
+
+        <p>5. Który znacznik HTML jest używany do definiowania sekcji treści?</p>
+        <input type="radio" id="q5A" name="q5" value="A">
+        <label for="q5A">&lt;section&gt;</label>
+        
+        <input type="radio" id="q5B" name="q5" value="B">
+        <label for="q5B">&lt;div&gt;</label>
+        
+        <input type="radio" id="q5C" name="q5" value="C">
+        <label for="q5C">&lt;span&gt;</label>
+        
+        <input type="radio" id="q5D" name="q5" value="D">
+        <label for="q5D">&lt;article&gt;</label>
+
+
+        <p>6. Jaki jest poprawny sposób nadania klasy dla elementu w HTML?</p>
+        <input type="radio" id="q6A" name="q6" value="A">
+        <label for="q6A">class="example"</label>
+
+        <input type="radio" id="q6B" name="q6" value="B">
+        <label for="q6B">style="example"</label>
+
+        <input type="radio" id="q6C" name="q6" value="C">
+        <label for="q6C">id="example"</label>
+
+        <input type="radio" id="q6D" name="q6" value="D">
+        <label for="q6D">group="example"</label>
+
+        <p>7. Jak definiujemy komentarz w CSS?</p>
+        <input type="radio" id="q7A" name="q7" value="A">
+        <label for="q7A">/* To jest komentarz */</label>
+
+        <input type="radio" id="q7B" name="q7" value="B">
+        <label for="q7B"># To jest komentarz</label>
+
+        <input type="radio" id="q7C" name="q7" value="C">
+        <label for="q7C">// To jest komentarz</label>
+
+        <input type="radio" id="q7D" name="q7" value="D">
+        <label for="q7D">&lt;!-- To jest komentarz --&gt;</label>
+
+        <p>8. Jaki selektor CSS wybiera wszystkie elementy p w dokumencie?</p>
+        <input type="radio" id="q8A" name="q8" value="A">
+        <label for="q8A">p {}</label>
+
+        <input type="radio" id="q8B" name="q8" value="B">
+        <label for="q8B">#p {}</label>
+
+        <input type="radio" id="q8C" name="q8" value="C">
+        <label for="q8C">.p {}</label>
+
+        <input type="radio" id="q8D" name="q8" value="D">
+        <label for="q8D">*p {}</label>
+
+        <p>9. Co robi właściwość `display: none;` w CSS?</p>
+        <input type="radio" id="q9A" name="q9" value="A">
+        <label for="q9A">Ukrywa element</label>
+
+        <input type="radio" id="q9B" name="q9" value="B">
+        <label for="q9B">Zmienia kolor tekstu</label>
+
+        <input type="radio" id="q9C" name="q9" value="C">
+        <label for="q9C">Zmienia układ strony</label>
+
+        <input type="radio" id="q9D" name="q9" value="D">
+        <label for="q9D">Zwiększa rozmiar czcionki</label>
+
+        <p>10. Jak zapisujemy komentarz w HTML?</p>
+        <input type="radio" id="q10A" name="q10" value="A">
+        <label for="q10A">&lt;!-- To jest komentarz --&gt;</label>
+
+        <input type="radio" id="q10B" name="q10" value="B">
+        <label for="q10B"># To jest komentarz</label>
+
+        <input type="radio" id="q10C" name="q10" value="C">
+        <label for="q10C">/* To jest komentarz */</label>
+
+        <input type="radio" id="q10D" name="q10" value="D">
+        <label for="q10D">// To jest komentarz</label>
+
+        <p>11. Który element HTML definiuje stopkę strony?</p>
+        <input type="radio" id="q11A" name="q11" value="A">
+        <label for="q11A">&lt;footer&gt;</label>
+
+        <input type="radio" id="q11B" name="q11" value="B">
+        <label for="q11B">&lt;bottom&gt;</label>
+
+        <input type="radio" id="q11C" name="q11" value="C">
+        <label for="q11C">&lt;end&gt;</label>
+
+        <input type="radio" id="q11D" name="q11" value="D">
+        <label for="q11D">&lt;close&gt;</label>
+
+        <p>12. Który z poniższych atrybutów służy do nadania identyfikatora elementu w HTML?</p>
+        <input type="radio" id="q12A" name="q12" value="A">
+        <label for="q12A">class</label>
+
+        <input type="radio" id="q12B" name="q12" value="B">
+        <label for="q12B">id</label>
+
+        <input type="radio" id="q12C" name="q12" value="C">
+        <label for="q12C">name</label>
+
+        <input type="radio" id="q12D" name="q12" value="D">
+        <label for="q12D">tag</label>
+
+        <p>13. Jaką wartość należy przypisać `position` w CSS, aby element przemieszczał się wraz z przewijaniem strony?</p>
+        <input type="radio" id="q13A" name="q13" value="A">
+        <label for="q13A">absolute</label>
+
+        <input type="radio" id="q13B" name="q13" value="B">
+        <label for="q13B">fixed</label>
+
+        <input type="radio" id="q13C" name="q13" value="C">
+        <label for="q13C">relative</label>
+
+        <input type="radio" id="q13D" name="q13" value="D">
+        <label for="q13D">sticky</label>
+
+        <p>14. Jakim znacznikiem HTML można dodać obraz na stronę?</p>
+        <input type="radio" id="q14A" name="q14" value="A">
+        <label for="q14A">&lt;image&gt;</label>
+
+        <input type="radio" id="q14B" name="q14" value="B">
+        <label for="q14B">&lt;picture&gt;</label>
+
+        <input type="radio" id="q14C" name="q14" value="C">
+        <label for="q14C">&lt;img&gt;</label>
+
+        <input type="radio" id="q14D" name="q14" value="D">
+        <label for="q14D">&lt;photo&gt;</label>
+
+        <p>15. Który selektor CSS pozwala wybrać wszystkie elementy w dokumencie?</p>
+        <input type="radio" id="q15A" name="q15" value="A">
+        <label for="q15A">#all</label>
+
+        <input type="radio" id="q15B" name="q15" value="B">
+        <label for="q15B">.all</label>
+
+        <input type="radio" id="q15C" name="q15" value="C">
+        <label for="q15C">*</label>
+
+        <input type="radio" id="q15D" name="q15" value="D">
+        <label for="q15D">body</label>
+
+        <p><button type="submit">Sprawdź odpowiedzi</button></p>
+    </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
